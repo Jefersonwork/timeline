@@ -1,0 +1,39 @@
+- icons -
+
+width = 12px
+height = 11px
+
+- card -
+
+width = 416px
+height = 152px
+padding left = 23px
+padding rigth = 48px
+margin bottom = 36px
+
+
+- ponta do balão -
+
+distancia do topo do card 14px
+
+width = 10px
+height = 18px
+
+- icon check -
+
+width = 26px
+height = 26px
+borda = 26px
+
+
+- linha timeline -
+
+width = 2px
+
+- table -
+
+maxima distancia horizontal entre os itens da tabela = 227px
+paddind top e bottom dos elementos da tabela = 10px
+
+
+alura em que o primeiro card aparece na linha 67px
