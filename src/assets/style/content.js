@@ -1,5 +1,9 @@
 import styled from 'styled-components'
 
+export const TimeLineContainer = styled.div`
+  background-color: #ccc;
+`
+
 export const Card = styled.div`
   position: relative;
   width: 416px;
@@ -7,6 +11,7 @@ export const Card = styled.div`
   padding: 18px 21px 21px 22px;
   border-radius: 10px;
   box-shadow: 2px 2px 20px #ccc;
+  background-color: #fff;
 
   &::after {
     content: "";
@@ -20,11 +25,10 @@ export const Card = styled.div`
     left: -9px;
   }
 
-  background-color: #fff;
-  margin: auto;
+  margin: auto; 
 `
 
-export const listUnstyled = styled.ul`
+export const ListUnstyled = styled.ul`
   list-style: none;
   display: flex;
 `

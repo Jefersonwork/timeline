@@ -1,11 +1,13 @@
 import React from 'react';
 
-import { Card } from './assets/style/content'
+import { Card, TimeLineContainer } from './assets/style/content'
 
 function App() {
   return (
     <div className="App">
-      <Card />
+      <TimeLineContainer>
+        <Card />
+      </TimeLineContainer>
     </div>
   );
 }

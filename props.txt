@@ -35,5 +35,9 @@ width = 2px
 maxima distancia horizontal entre os itens da tabela = 227px
 paddind top e bottom dos elementos da tabela = 10px
 
+altura em que o primeiro card aprece na lina 56px
+altura em que o primeiro icone de check aparece na linha 67px
 
-alura em que o primeiro card aparece na linha 67px
+distancia da ponta do balão ate o incone de check 9px
+
+distancia do card ate o icone de check 19px
