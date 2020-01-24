@@ -10,13 +10,12 @@ export const TimeLineContainer = styled.div`
 `
 
 export const CardContent = styled.div`
-  position: absolute;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin: auto;
   width: 465px;
-  left: -14px;
+  margin-left: -14px;
+  margin-bottom: 36px;
   svg { margin-top: 10px; }
 `
 
