@@ -1,7 +1,22 @@
 import styled from 'styled-components'
 
 export const TimeLineContainer = styled.div`
+  max-width: 550px;
+  height: 100vh;
   background-color: #ccc;
+  margin: auto;
+  border-left: 2px solid #000;
+`
+
+export const CardContent = styled.div`
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: blue;
+
+  svg {
+    margin-top: 10px;
+  }
 `
 
 export const Card = styled.div`
@@ -25,7 +40,7 @@ export const Card = styled.div`
     left: -9px;
   }
 
-  margin: auto; 
+  margin-left: auto;
 `
 
 export const ListUnstyled = styled.ul`
