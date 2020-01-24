@@ -11,22 +11,22 @@ const CardContainer = props => (
         <ListUnstyled>
           <Item>
             <Icon type="calendar" width="12" height="12"/>
-            <label>22/09/2016</label>
+            <label>{props.date}</label>
           </Item>
           
           <Item>
             <Icon type="clock" width="12" height="12"/>
-            <label>13:57</label>
+            <label>{props.clock}</label>
           </Item>
 
           <Item>
             <Icon type="place" width="12" height="12"/>
-            <label>Pátio Savassi</label>
+            <label>{props.place}</label>
           </Item>
 
           <Item>
             <Icon type="money" width="12" height="12"/>
-            <label>R$ 250,00</label>
+            <label>{props.money}</label>
           </Item>
         </ListUnstyled>
       </CardHeader>

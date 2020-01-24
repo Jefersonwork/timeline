@@ -1,28 +1,29 @@
 import styled from 'styled-components'
 
 export const TimeLineContainer = styled.div`
+  position: relative;
   max-width: 550px;
-  height: 100vh;
-  background-color: #ccc;
+  min-height: 100vh;
   margin: auto;
-  border-left: 2px solid #000;
+  border-left: 2px solid #d8d8d8;
+  padding-top: 56px;
 `
 
 export const CardContent = styled.div`
+  position: absolute;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  background-color: blue;
-  height: 300px;
-
-  svg {
-    margin-top: 10px;
-  }
+  margin: auto;
+  width: 465px;
+  left: -14px;
+  svg { margin-top: 10px; }
 `
 
 export const Card = styled.div`
   position: relative;
   width: 416px;
+  height: auto;
   border-radius: 10px;
   box-shadow: 2px 2px 20px #ccc;
   background-color: #fff;
@@ -50,13 +51,9 @@ export const Item = styled.li`
   display: flex;
   align-items: flex-end;
 
-  svg {
-    margin-right: 4px;
-  }
+  svg { margin-right: 4px; }
 
-  label {
-    font-size: 14px;
-  }
+  label { font-size: 14px; }
 `
 
 export const ListUnstyled = styled.ul`
@@ -75,9 +72,7 @@ export const CardBody = styled.div`
 export const Table = styled.table`
   width: 100%;
 
-  thead {
-    border-bottom: 2px solid #f3f3f3;  
-  }
+  thead { border-bottom: 2px solid #f3f3f3; }
 `
 
 export const Tr = styled.tr`
@@ -87,15 +82,9 @@ export const Tr = styled.tr`
   padding: 10px 0;
   border-bottom: 2px solid #f3f3f3;
 
-  &:last-child {
-    border-bottom: none;
-  }
+  &:last-child { border-bottom: none; }
 
-  th {
-    font-weight: bold;
-  }
+  th { font-weight: bold; }
 
-  td {
-    font-weight: normal;    
-  }
+  td { font-weight: normal; }
 `

@@ -1,11 +1,11 @@
 import React from 'react';
 
-import CardContainer from './assets/view/card'
+import Timeline from './assets/view/timeline'
 
 function App() {
   return (
     <div className="App">
-      <CardContainer />
+      <Timeline />
     </div>
   );
 }
