@@ -13,6 +13,7 @@ export const CardContent = styled.div`
   align-items: flex-start;
   justify-content: space-between;
   background-color: blue;
+  height: 300px;
 
   svg {
     margin-top: 10px;
@@ -22,8 +23,6 @@ export const CardContent = styled.div`
 export const Card = styled.div`
   position: relative;
   width: 416px;
-  height: 152px;
-  padding: 18px 21px 21px 22px;
   border-radius: 10px;
   box-shadow: 2px 2px 20px #ccc;
   background-color: #fff;
@@ -43,7 +42,60 @@ export const Card = styled.div`
   margin-left: auto;
 `
 
+export const CardHeader = styled.div`
+  padding:  10px 21px 21px 22px;
+`
+
+export const Item = styled.li`
+  display: flex;
+  align-items: flex-end;
+
+  svg {
+    margin-right: 4px;
+  }
+
+  label {
+    font-size: 14px;
+  }
+`
+
 export const ListUnstyled = styled.ul`
   list-style: none;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+`
+
+export const CardBody = styled.div`
+  padding: 10px 21px 10px 22px;
+  border-radius: 0 0 10px 10px;
+  background-color: #f8f8f8;
+`
+
+export const Table = styled.table`
+  width: 100%;
+
+  thead {
+    border-bottom: 2px solid #f3f3f3;  
+  }
+`
+
+export const Tr = styled.tr`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 2px solid #f3f3f3;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  th {
+    font-weight: bold;
+  }
+
+  td {
+    font-weight: normal;    
+  }
 `
