@@ -26,7 +26,7 @@ const CardContainer = props => (
 
           <Item>
             <Icon type="money" width="12" height="12"/>
-            <label>{props.money}</label>
+            <label>R$ {props.money}</label>
           </Item>
         </ListUnstyled>
       </CardHeader>
@@ -41,10 +41,16 @@ const CardContainer = props => (
           </thead>
 
           <tbody>
-            <Tr>
-              <td>Camisa azul</td>
-              <td>R$ 100,00</td>
-            </Tr>
+            {
+              props.products.map(item => {
+                return (
+                  <Tr key={item.product_name}>
+                    <td>{item.product_name}</td>
+                    <td>R$ {item.product_price}</td>
+                  </Tr>
+                )
+              })
+            }
           </tbody>
         </Table>
       </CardBody>
