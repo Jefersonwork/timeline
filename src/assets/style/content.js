@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const TimeLineContainer = styled.div`
   position: relative;
   max-width: 550px;
-  min-height: 100vh;
+  min-height: calc(100vh - 56px);
   margin: auto;
   border-left: 2px solid #d8d8d8;
   padding-top: 56px;
@@ -83,7 +83,10 @@ export const Tr = styled.tr`
 
   &:last-child { border-bottom: none; }
 
-  th { font-weight: bold; }
+  th { 
+    font-weight: bold;
+    margin-right: 10px; 
+  }
 
   td { font-weight: normal; }
 `

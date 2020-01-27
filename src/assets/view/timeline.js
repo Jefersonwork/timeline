@@ -99,7 +99,6 @@ class timeline extends Component {
     dataFormat.map(item => {
       if(item.event === 'comprou') { return comprou.push(item) }
       if(item.event === 'comprou-produto') { return comprou_produto.push(item) }
-      
       return false
     })
 
@@ -111,7 +110,6 @@ class timeline extends Component {
 
         return false
       })
-      
       return obj.push(element)
     });
 
