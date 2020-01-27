@@ -45,11 +45,6 @@ const CardContainer = props => (
               <td>Camisa azul</td>
               <td>R$ 100,00</td>
             </Tr>
-
-            <Tr>
-              <td>Camisa azul</td>
-              <td>R$ 100,00</td>
-            </Tr>
           </tbody>
         </Table>
       </CardBody>
