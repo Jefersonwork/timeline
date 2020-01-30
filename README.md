@@ -8,11 +8,7 @@
   ```bash
   git clone https://github.com/Jefersonwork/timeline.git
   ```
-- Entra na pasta timeline
-
-  ```bash
-  cd timeline
-
+  
 - Instalar as dependências do projeto
  
    * yarn
